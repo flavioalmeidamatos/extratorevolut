@@ -1,0 +1,5 @@
+{
+  "name": "Revolut Business Dashboard",
+  "description": "A financial management tool to view, edit, and analyze Revolut Business statements with real-time updates.",
+  "requestFramePermissions": []
+}
