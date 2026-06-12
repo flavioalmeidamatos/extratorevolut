@@ -1,282 +1,179 @@
 import { StatementData } from './types';
 
 export const statementData: StatementData = {
-  generatedAt: '2026-04-07',
-  periodStart: '2026-01-01',
-  periodEnd: '2026-04-07',
-  initialBalance: 0,
-  company: {
-    name: 'ZODÍACO PRISMÁTICO, UNIPESSOAL, LDA',
-    address: ['RUA MOUSINHO DE ALBUQUERQUE, 28 1ºDTO.', 'GUARDA', '6300-734', 'Portugal'],
+  "generatedAt": "2026-06-11",
+  "periodStart": "2026-01-09",
+  "periodEnd": "2026-06-11",
+  "initialBalance": 0,
+  "company": {
+    "name": "ZODÍACO PRISMÁTICO, UNIPESSOAL, LDA",
+    "address": [
+      "RUA MOUSINHO DE ALBUQUERQUE, 28 1ºDTO.",
+      "GUARDA",
+      "6300-734",
+      "Portugal"
+    ]
   },
-  accountSections: [
+  "accountSections": [
     {
-      fields: [
-        { label: 'Nome da conta', value: 'Main' },
-        { label: 'Moeda', value: 'EUR' },
-      ],
+      "fields": [
+        {
+          "label": "Nome da conta",
+          "value": "Main"
+        },
+        {
+          "label": "Moeda",
+          "value": "EUR"
+        }
+      ]
     },
     {
-      title: 'Dados locais',
-      fields: [
-        { label: 'Tipo', value: 'Dados locais' },
-        { label: 'IBAN', value: 'LT55 3250 0436 4050 4913' },
-        { label: 'BIC', value: 'REVOLT21' },
-      ],
+      "title": "Dados locais",
+      "fields": [
+        {
+          "label": "Tipo",
+          "value": "Dados locais"
+        },
+        {
+          "label": "IBAN",
+          "value": "LT55 3250 0436 4050 4913"
+        },
+        {
+          "label": "BIC",
+          "value": "REVOLT21"
+        }
+      ]
     },
     {
-      title: 'Dados internacionais',
-      fields: [
-        { label: 'Tipo', value: 'Dados internacionais' },
-        { label: 'IBAN', value: 'LT55 3250 0436 4050 4913' },
-        { label: 'BIC', value: 'REVOLT21' },
-        { label: 'BIC do intermediário', value: 'CHASDEFX' },
-      ],
-    },
+      "title": "Dados internacionais",
+      "fields": [
+        {
+          "label": "Tipo",
+          "value": "Dados internacionais"
+        },
+        {
+          "label": "IBAN",
+          "value": "LT55 3250 0436 4050 4913"
+        },
+        {
+          "label": "BIC",
+          "value": "REVOLT21"
+        },
+        {
+          "label": "BIC do intermediário",
+          "value": "CHASDEFX"
+        }
+      ]
+    }
   ],
-  transactions: [
+  "transactions": [
     {
-      id: '1',
-      date: '2026-01-01',
-      type: 'OPENING',
-      description: 'Capital Inicial – Injeção de Capital da Empresa',
-      incoming: 30000,
-      outgoing: 0,
-      balance: 30000,
+      "id": "5",
+      "date": "2026-01-09",
+      "type": "MOS",
+      "description": "Para OZNI ANJOS BATISTA • Devolução",
+      "incoming": 0,
+      "outgoing": 0.03,
+      "balance": -0.03
     },
     {
-      id: '2',
-      date: '2026-01-03',
-      type: 'MOS',
-      description: 'Pagamento Marketing Digital',
-      incoming: 0,
-      outgoing: 1600,
-      balance: 28400,
+      "id": "moa-jan",
+      "date": "2026-01-09",
+      "type": "MOA",
+      "description": "Dinheiro adicionado de OZNI ANJOS BATISTA",
+      "incoming": 0.03,
+      "outgoing": 0,
+      "balance": 0
     },
     {
-      id: '3',
-      date: '2026-01-07',
-      type: 'MOS',
-      description: 'Pagamento Freelancer (Marketing)',
-      incoming: 0,
-      outgoing: 798.12,
-      balance: 27601.88,
+      "id": "fee-fev",
+      "date": "2026-02-09",
+      "type": "FEE",
+      "description": "Taxa da Revolut Business • Taxa do plano Basic",
+      "incoming": 0,
+      "outgoing": 10,
+      "balance": -10
     },
     {
-      id: '4',
-      date: '2026-01-09',
-      type: 'MOA',
-      description: 'Dinheiro adicionado de OZNI ANJOS BATISTA',
-      incoming: 3.0,
-      outgoing: 0,
-      balance: 27604.88,
+      "id": "moa-fev",
+      "date": "2026-02-11",
+      "type": "MOA",
+      "description": "Dinheiro adicionado de FLAVIO ALMEIDA MATOS - Mensalidade Conta.",
+      "incoming": 10,
+      "outgoing": 0,
+      "balance": 0
     },
     {
-      id: '5',
-      date: '2026-01-10',
-      type: 'MOS',
-      description: 'Para OZNI ANJOS BATISTA • Devolução',
-      incoming: 0,
-      outgoing: 3.0,
-      balance: 27601.88,
+      "id": "fee-mar",
+      "date": "2026-03-09",
+      "type": "FEE",
+      "description": "Taxa da Revolut Business • Taxa do plano Basic",
+      "incoming": 0,
+      "outgoing": 10,
+      "balance": -10
     },
     {
-      id: '6',
-      date: '2026-01-12',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas Iniciais)',
-      incoming: 2156.89,
-      outgoing: 0,
-      balance: 29758.77,
+      "id": "moa-mar",
+      "date": "2026-03-12",
+      "type": "MOA",
+      "description": "Dinheiro adicionado de FLAVIO ALMEIDA MATOS - Mensalidade Conta.",
+      "incoming": 10,
+      "outgoing": 0,
+      "balance": 0
     },
     {
-      id: '6a',
-      date: '2026-01-12',
-      type: 'MOA',
-      description: 'Everson Benck, Unipessoal Lda – NIF 518881245',
-      incoming: 1900,
-      outgoing: 0,
-      balance: 31658.77,
+      "id": "1",
+      "date": "2026-04-02",
+      "type": "OPENING",
+      "description": "Capital Inicial – Injeção de Capital da Empresa",
+      "incoming": 14671.83,
+      "outgoing": 0,
+      "balance": 14671.83
     },
     {
-      id: '7',
-      date: '2026-01-16',
-      type: 'FEE',
-      description: 'Taxa Mensal Revolut Business',
-      incoming: 0,
-      outgoing: 10.0,
-      balance: 31648.77,
+      "id": "moa-abr",
+      "date": "2026-04-14",
+      "type": "MOA",
+      "description": "Dinheiro adicionado de FLAVIO ALMEIDA MATOS - Mensalidade Conta.",
+      "incoming": 10,
+      "outgoing": 0,
+      "balance": 14681.83
     },
     {
-      id: '8',
-      date: '2026-01-19',
-      type: 'MOS',
-      description: 'Pagamento Software (Assinatura)',
-      incoming: 0,
-      outgoing: 297.36,
-      balance: 31351.41,
+      "id": "fee-mai",
+      "date": "2026-05-09",
+      "type": "FEE",
+      "description": "Taxa da Revolut Business • Taxa do plano Basic",
+      "incoming": 0,
+      "outgoing": 10,
+      "balance": 14671.83
     },
     {
-      id: '9',
-      date: '2026-01-23',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas)',
-      incoming: 3689.41,
-      outgoing: 0,
-      balance: 35040.82,
+      "id": "moa-mai",
+      "date": "2026-05-15",
+      "type": "MOA",
+      "description": "Dinheiro adicionado de FLAVIO ALMEIDA MATOS - Mensalidade Conta.",
+      "incoming": 10,
+      "outgoing": 0,
+      "balance": 14681.83
     },
     {
-      id: '10',
-      date: '2026-01-27',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas)',
-      incoming: 4211.98,
-      outgoing: 0,
-      balance: 39252.8,
+      "id": "7",
+      "date": "2026-06-04",
+      "type": "FEE",
+      "description": "Taxa da Revolut Business • Taxa do plano Basic",
+      "incoming": 0,
+      "outgoing": 10,
+      "balance": 14671.83
     },
     {
-      id: '11',
-      date: '2026-02-03',
-      type: 'MOS',
-      description: 'Pagamento Marketing Digital',
-      incoming: 0,
-      outgoing: 1600,
-      balance: 37652.8,
-    },
-    {
-      id: '12',
-      date: '2026-02-04',
-      type: 'MOS',
-      description: 'Pagamento Consultoria Jurídica',
-      incoming: 0,
-      outgoing: 692.81,
-      balance: 36959.99,
-    },
-    {
-      id: '13',
-      date: '2026-02-09',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas)',
-      incoming: 5347.29,
-      outgoing: 0,
-      balance: 42307.28,
-    },
-    {
-      id: '13a',
-      date: '2026-02-12',
-      type: 'MOA',
-      description: 'Everson Benck, Unipessoal Lda – NIF 518881245',
-      incoming: 1900,
-      outgoing: 0,
-      balance: 44207.28,
-    },
-    {
-      id: '14',
-      date: '2026-02-16',
-      type: 'FEE',
-      description: 'Taxa Mensal Revolut Business',
-      incoming: 0,
-      outgoing: 10.0,
-      balance: 44197.28,
-    },
-    {
-      id: '15',
-      date: '2026-02-17',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas)',
-      incoming: 6435.12,
-      outgoing: 0,
-      balance: 50632.4,
-    },
-    {
-      id: '15a',
-      date: '2026-02-18',
-      type: 'MOA',
-      description: 'WELL TECH LTDA - CNPJ n.º 20.432.189/0001-07 - reuniões',
-      incoming: 334.9,
-      outgoing: 0,
-      balance: 50967.3,
-    },
-    {
-      id: '16',
-      date: '2026-02-21',
-      type: 'MOS',
-      description: 'Pagamento Marketing Digital',
-      incoming: 0,
-      outgoing: 876.49,
-      balance: 50090.81,
-    },
-    {
-      id: '17',
-      date: '2026-03-01',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas)',
-      incoming: 7399.55,
-      outgoing: 0,
-      balance: 57490.36,
-    },
-    {
-      id: '18',
-      date: '2026-03-03',
-      type: 'MOS',
-      description: 'Pagamento Marketing Digital',
-      incoming: 0,
-      outgoing: 1600,
-      balance: 55890.36,
-    },
-    {
-      id: '19',
-      date: '2026-03-06',
-      type: 'MOA',
-      description: 'Depósito de Clientes (Vendas)',
-      incoming: 8162.73,
-      outgoing: 0,
-      balance: 64053.09,
-    },
-    {
-      id: '19b',
-      date: '2026-03-10',
-      type: 'MOA',
-      description: 'QUANTRYX LTD - Company number 12564497',
-      incoming: 850,
-      outgoing: 0,
-      balance: 64903.09,
-    },
-    {
-      id: '19a',
-      date: '2026-03-12',
-      type: 'MOA',
-      description: 'Everson Benck, Unipessoal Lda – NIF 518881245',
-      incoming: 1900,
-      outgoing: 0,
-      balance: 66803.09,
-    },
-    {
-      id: '20',
-      date: '2026-03-16',
-      type: 'FEE',
-      description: 'Taxa da Revolut Business • Taxa do plano Basic',
-      incoming: 0,
-      outgoing: 10.0,
-      balance: 66793.09,
-    },
-    {
-      id: '20a',
-      date: '2026-03-22',
-      type: 'MOA',
-      description: 'PÉROLADORMECIDA – ASSOCIAÇÃO - NIPC 518748090',
-      incoming: 350,
-      outgoing: 0,
-      balance: 67143.09,
-    },
-    {
-      id: '21',
-      date: '2026-03-31',
-      type: 'MOA',
-      description: 'Dinheiro adicionado de FLAVIO ALMEIDA MATOS • mensalidade',
-      incoming: 30.96,
-      outgoing: 0,
-      balance: 67174.05,
-    },
-  ],
+      "id": "fee-jun",
+      "date": "2026-06-09",
+      "type": "FEE",
+      "description": "Taxa da Revolut Business • Taxa do plano Basic",
+      "incoming": 0,
+      "outgoing": 10,
+      "balance": 14661.83
+    }
+  ]
 };

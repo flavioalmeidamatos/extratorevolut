@@ -6,7 +6,7 @@ import { StatementTransaction, TransactionType } from './types';
 const SHORT_MONTHS = ['jan.', 'fev.', 'mar.', 'abr.', 'mai.', 'jun.', 'jul.', 'ago.', 'set.', 'out.', 'nov.', 'dez.'];
 const LONG_MONTHS = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
 const DESCRIPTION_WRAP_LENGTH = 'Taxa da Revolut Business • Taxa do plano'.length;
-const FIRST_PAGE_TRANSACTION_LIMIT = 7;
+const FIRST_PAGE_TRANSACTION_LIMIT = 4;
 const CONTINUATION_PAGE_TRANSACTION_LIMIT = 14;
 const DISPLAYED_TYPE_ORDER: TransactionType[] = ['CAR', 'MOS', 'MOR', 'MOA', 'ATM', 'EXO', 'EXI', 'FEE'];
 const FOOTER_LEGAL_LINES = [
